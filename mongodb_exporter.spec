@@ -3,7 +3,7 @@
 %global group prometheus
 
 Name: mongodb_exporter
-Version: 0.52.0
+Version: 0.53.0
 Release: 1%{?dist}
 Summary: A Prometheus exporter for MongoDB including sharding, replication and storage engines
 License: ASL 2.0
@@ -54,6 +54,8 @@ exit 0
 %{_unitdir}/%{name}.service
 
 %changelog
+* Fri Sey 04 2026 Ivan Garcia <igarcia@cloudox.org> - 0.53.0
+- Bump version to 0.53.0
 * Thu Aug 06 2026 Ivan Garcia <igarcia@cloudox.org> - 0.52.0
 - Bump version to 0.52.0
 * Mon Apr 13 2026 Ivan Garcia <igarcia@cloudox.org> - 0.50.0
