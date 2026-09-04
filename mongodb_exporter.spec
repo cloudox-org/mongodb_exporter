@@ -54,7 +54,7 @@ exit 0
 %{_unitdir}/%{name}.service
 
 %changelog
-* Fri Sey 04 2026 Ivan Garcia <igarcia@cloudox.org> - 0.53.0
+* Fri Sep 04 2026 Ivan Garcia <igarcia@cloudox.org> - 0.53.0
 - Bump version to 0.53.0
 * Thu Aug 06 2026 Ivan Garcia <igarcia@cloudox.org> - 0.52.0
 - Bump version to 0.52.0
